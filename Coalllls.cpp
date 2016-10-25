@@ -95,6 +95,7 @@ bool Barbeque::isCooking()
 	else
 	{
 		cout<<"You can't cook in this situation !"<<endl;
+		return false;
 	}
 }
 
